@@ -15,4 +15,22 @@ The script defines two metrics
 1. *Medium engaged*  
   Sends an event at 40% scroll and 25% of the estimated reading time.
 2. *Fully engaged*  
-  Sends an event at 70% scroll and 50% of the estimated reading time.
+  Sends an event at 70% scroll and 50% of the estimated reading time.  
+  
+The events are formatted as follows:
+```javascript
+// Medium engagement
+{
+  event_category: "Content engagement",
+  event_action: "Medium engaged",
+  event_label: "<NAME_OF_ARTICLE>"
+}  
+
+// Full engagement
+{
+  event_category: "Content engagement",
+  event_action: "Fully engaged",
+  event_label: "<NAME_OF_ARTICLE>"
+}
+```
+
