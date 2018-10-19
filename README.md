@@ -22,14 +22,14 @@ The events are formatted as follows:
 // Medium engagement
 {
   event_category: "Content engagement",
-  event_action: "Medium engaged",
+  event_action: "Medium engagement",
   event_label: "<NAME_OF_ARTICLE>"
 }  
 
 // Full engagement
 {
   event_category: "Content engagement",
-  event_action: "Fully engaged",
+  event_action: "Full engagement",
   event_label: "<NAME_OF_ARTICLE>"
 }
 ```
