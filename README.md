@@ -1,5 +1,5 @@
 # Content Engagement
-A script to measure the level of engagement on your content pages.  
+A script to measure the level of engagement on your content pages made by Arena Data Consulting AS.  
 It is set up for use with Tealium IQ, but can be configured to work with any other TMS.
 
 ## Installation
